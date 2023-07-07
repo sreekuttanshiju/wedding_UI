@@ -9,20 +9,26 @@ nav{
     position: absolute;
     top: 0;
     left: 0;
-    padding: 30px 10%;
+    /* padding: 30px 10%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 ul {
     list-style-type: none;
+    width: 100%;
     margin: 0 ;
     padding: 0 ;
     overflow: hidden;
+    padding: 10px 30px;
     background-color: #140f0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 li {
-    float: left;
+    /* float: left; */
+    width: 100%;
 }
   
 li a {
@@ -38,7 +44,7 @@ li a:hover {
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 nav ul li a{
     padding: 15;
