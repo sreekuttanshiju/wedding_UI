@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fira Sans',sans-serif;
+}
+img{
+    display: block;
+    width: 50%;
+    max-width: 50%;
+}
+.grid{
+    display: block;
+    padding: 16px;
+    grid-gap: 16px;
+    @media (min-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 960px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 1200px){
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .col{
+        background-color: pink;
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+}
